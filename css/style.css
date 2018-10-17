@@ -1,0 +1,181 @@
+@CHARSET "UTF-8";
+
+body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#node {
+	color: rgba(75, 192, 192, 1);
+	font-size: 250%;
+}
+
+#na {
+	color: rgba(75, 192, 192, 1);
+	font-size: 200%;
+	top: 20%;
+	left: 15%;
+	position: relative;
+}
+
+#tn {
+	color: rgba(75, 192, 192, 1);
+	font-size: 150%;
+	top: 22%;
+	left: 15%;
+	position: relative;
+}
+
+#aNodes {
+	color: rgba(75, 192, 192, 1);
+	font-size: 150%;
+	top: 23%;
+	left: 15%;
+	position: relative;
+}
+
+#artt {
+	color: rgba(75, 192, 192, 1);
+	font-size: 150%;
+	top: 24%;
+	left: 15%;
+	position: relative;
+	left: 15%;
+}
+
+#arssi {
+	color: rgba(75, 192, 192, 1);
+	font-size: 150%;
+	top: 25%;
+	left: 15%;
+	position: relative;
+}
+
+#g1 {
+	width: 100%;
+}
+
+#g2 {
+	width: 100%;
+}
+
+#g3 {
+	width: 100%;
+}
+
+#g4 {
+	width: 100%;
+}
+
+#g5 {
+	width: 100%;
+}
+
+#g6 {
+	width: 100%;
+}
+
+#about-section
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	margin-top: 15px;
+	border : 1px solid #eee;
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	font-size: 14px;
+	color: #565C5C;
+	height: 100%;
+	width: 100%;
+}
+
+.footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 40px;
+	border-top: 1px solid #eee;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	text-align: center;
+	background-color: transparent;
+}
+
+.jumbotron .btn {
+	padding: 14px 24px;
+	font-size: 21px;
+}
+
+.navbar {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7),
+		to(#eee));
+	background-image: -webkit-linear-gradient(top, #f7f7f7 0%, #eee 100%);
+	background-image: -o-linear-gradient(top, #f7f7f7 0%, #eee 100%);
+	background-image: linear-gradient(to bottom, #f7f7f7 0%, #eee 100%);
+	border: 1px solid #e5e5e5;
+}
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin .form-signin-heading, .form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+	font-weight: 400;
+}
+
+.form-signin .form-control {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+@media ( min-width : 768px) {
+	.navbar-nav {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+	}
+	.navbar-nav .nav-item {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1 0 auto;
+		-ms-flex: 1 0 auto;
+		flex: 1 0 auto;
+	}
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+	/* Remove the padding we set earlier */
+	.masthead, .marketing, .footer {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+}
